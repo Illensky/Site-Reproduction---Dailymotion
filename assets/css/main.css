@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header div {
+    background-color: black;
+    color: #dadada;
+    padding: 10px;
+    padding-left: 140px;
+}
+
+header div button {
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    height: 25px;
+    width: 100px;
+}
+
+header div button:hover {
+    cursor: pointer;
+}
+
+header div a {
+    color: #dadada;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 30px;
+}
+
+header div a:hover {
+    color: white;
+}
+
+
+#menu1 {
+    float: right;
+    margin-right: 100px;
+}
+
+#logo {
+    height: 30px;
+}
+
+#menu2 {
+    background-color: #232323;
+    color: #9d9d9d;
+    padding: 10px;
+    padding-left: 90px;
+}
+
+#menu2 a {
+    color: #9d9d9d;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin: 60px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section {
+    display: inline-block;
+    margin: auto;
+}
+
+#main {
+    padding: 30px;
+    padding-left: 7%;
+    width: 55%;
+}
+
+#main video {
+    width: 590px;
+}
+
+#asside {
+    float: right;
+    padding: 30px;
+    background-color: #f8f8f8;
+    vertical-align: top;
+    width: 35%;
+}
+
+#main .describe {
+    margin-left: 7%;
+}
+
+#asside h1, #asside h2, #asside h3 {
+    font-size: 15px;
+}
+
+#asside video {
+    width: 200px;
+}
+
+.section1 {
+    margin-top: 5%;
+}
+
+.section {
+    margin: 20% 0;
+}
+
+.item {
+    margin: 10% 0;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.video {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+}
+
+.describe {
+    vertical-align: top;
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.upper_subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    color: #9d9d9d;
+}
+
+#main .sect_h1_title {
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+#main .sect_h2_title {
+    font-size: 35px;
+}
+
+#asside .sect_h1_title {
+    font-weight: bold;
+}
+
+#asside .sect_h2_title {
+    font-size: 25px;
+    color: #606060;
+    font-weight: bold;
+}
